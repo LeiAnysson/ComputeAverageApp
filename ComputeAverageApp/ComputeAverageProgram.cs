@@ -8,11 +8,11 @@ namespace ComputeAverageApp
         {
             double grdOne, grdTwo, grdThree, grdFour, grdFive;
             Console.WriteLine("Enter 5 grades separated by new Line: ");
-            grdOne = Convert.ToInt32(Console.ReadLine());
-            grdTwo = Convert.ToInt32(Console.ReadLine());
-            grdThree = Convert.ToInt32(Console.ReadLine());
-            grdFour = Convert.ToInt32(Console.ReadLine());
-            grdFive = Convert.ToInt32(Console.ReadLine());
+            grdOne = Convert.ToDouble(Console.ReadLine());
+            grdTwo = Convert.ToDouble(Console.ReadLine());
+            grdThree = Convert.ToDouble(Console.ReadLine());
+            grdFour = Convert.ToDouble(Console.ReadLine());
+            grdFive = Convert.ToDouble(Console.ReadLine());
             double total = grdOne + grdTwo + grdThree + grdFour + grdFive;
             double avg = total / 5;
 
